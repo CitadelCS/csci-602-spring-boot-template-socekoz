@@ -82,7 +82,7 @@ HourlyEmployee[name=John Doe, hireDate=2009-05-21, wageRate=50.5, hoursWorked=16
 SalariedEmployee[name=Curly Howard, hireDate=2018-01-01, annualSalary=105000.0]
 HourlyEmployee[name=Jane Doe, hireDate=2005-09-01, wageRate=150.5, hoursWorked=80.0]
 
-Monthly Pay 
+Monthly Salaries
 Moe Howard: $6,250.00
 John Doe: $8,080.00
 Curly Howard: $8,750.00

@@ -6,7 +6,7 @@ import java.util.Collections;
 
 public class InheritanceDemo {
     public static void main(String[] args) {
-        //Hourly employee
+        //Hourly employees
         ArrayList<edu.citadel.hw1.Employee> employees = new ArrayList<>();
         edu.citadel.hw1.HourlyEmployee e1 = new edu.citadel.hw1.HourlyEmployee("John Doe", LocalDate.of(2009, 5, 21), 50.5, 160.0);
         employees.add(e1);
