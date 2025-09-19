@@ -28,6 +28,7 @@ public class SalariedEmployee extends Employee {
     public int hashCode() {
         return Objects.hash(getName(), getHireDate());
     }
+    //comparing employees
     @Override
     public boolean equals(Object emp2) {
         if (this == emp2) {

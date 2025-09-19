@@ -11,7 +11,7 @@ public class HourlyEmployee extends Employee {
         wageRate = w;
         hoursWorked = hw;
     }
-    //get methods for wageRate and hoursWorked
+    //get methods for wageRate & hoursWorked
     public double getWageRate() {
         return wageRate;
     }

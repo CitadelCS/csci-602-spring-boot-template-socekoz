@@ -20,7 +20,7 @@ public abstract class Employee implements Comparable<edu.citadel.hw1.Employee> {
     }
     //get method for monthly pay. Subclasses implement.
     public abstract double getMonthlyPay();
-    //compare method for ordering salaries
+    //compare method for ordering salaries,
     @Override
     public int compareTo(edu.citadel.hw1.Employee emp2) {
         if (this.getMonthlyPay() > emp2.getMonthlyPay()) {
