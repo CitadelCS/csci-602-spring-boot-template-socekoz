@@ -8,6 +8,8 @@ import org.springframework.test.context.ActiveProfiles;
 public class RestApiApplicationTests {
 
 	@Test
-	public void contextLoads() {}
+	public void contextLoads() {
+
+    }
 }
 

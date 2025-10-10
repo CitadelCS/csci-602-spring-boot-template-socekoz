@@ -53,4 +53,5 @@ public class CommonStepDefinitions extends SpringIntegrationTest{
         String actualStatus = jsonResponse.get("status").asText();
         assertThat(actualStatus, is(status));
     }
+
 }
