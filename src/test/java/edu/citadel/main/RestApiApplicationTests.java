@@ -9,6 +9,6 @@ public class RestApiApplicationTests {
 
 	@Test
 	public void contextLoads() {}
-	
+
 }
 
