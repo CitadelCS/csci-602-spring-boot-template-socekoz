@@ -20,4 +20,5 @@ public class SpringIntegrationTest {
     protected String createURLWithPort(String uri) {
         return "http://localhost:" + port + uri;
     }
+
 }

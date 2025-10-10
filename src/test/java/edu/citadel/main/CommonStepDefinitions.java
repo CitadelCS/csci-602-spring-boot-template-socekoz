@@ -35,7 +35,6 @@ public class CommonStepDefinitions extends SpringIntegrationTest{
         assertEquals("status code is incorrect : " +
                 responseEntity.getBody(), currentStatusCode, is(statusCode));
     }
-
     @And("^the client receives server version (.+)$")
     public void theClientReceivesServerVersionBody(String version) throws Throwable {
         JsonNode jsonResponse = objectMapper.readTree(responseEntity.getBody());
